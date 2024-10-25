@@ -18,3 +18,4 @@ df -h | awk 'NR>1 {printf "%s\t%s\t%s\t%s\n", $1, $2, $5, $6}'
 echo ""
 echo "Top 5 Processes by CPU Usage:"
 ps -eo pid,ppid,cmd,%cpu,%mem --sort=-%cpu | head -n 6
+echo "Hi"
