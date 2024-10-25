@@ -6,4 +6,5 @@ echo "$file has some content" >> results.txt
 else
 echo "$file has no content" >> results.txt
 fi
+cat results.txt
 done
